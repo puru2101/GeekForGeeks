@@ -18,6 +18,19 @@ public class Test {
 		System.out.println(maxCount);
 	}
 
+	public static void moores(int[] arr) {
+		int key = 0;
+		int count = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if(key==arr[i]) {
+				count
+				
+			}
+
+		}
+
+	}
+
 	public static void main(String[] args) {
 		int[] arr = { 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1 };
 		maxConsicutiveOnes(arr);
