@@ -28,11 +28,7 @@ public class Salaryless50k {
 		
 	//	List<String> lst = List.of("Ansh,");
 		
-		Map<String,Integer> mp= new HashMap<>();
-		mp.put("Ansh", 21);
-		mp.put("Ansh1", 29);
-		System.out.println(	mp.entrySet().stream().sorted(Comparator.comparing(Map.Entry<String,Integer>::getValue).reversed()).map(e->e.getKey()).findFirst().get());
-	
+		
 		
 		List<Employee> listOfEmp = new ArrayList<>();
 		listOfEmp.add(new Employee(1, "Sahil", 50000L, new Date(2010, 01, 12), "Operations"));
